@@ -1,0 +1,63 @@
+.tweetbox {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-right: 10px;
+}
+
+.tweetbox > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweetbox_input {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+.tweetbox_input > input {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.tweetButton {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  margin-left: auto !important;
+  width: 80px;
+  height: 40px !important;
+  margin-top: 20px !important;
+}
+
+.tweetImage {
+  border: none;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  outline: none;
+}
+
+.image_button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.image_button > input {
+  flex: 1;
+}
+
+.image_button > button {
+  margin-bottom: 10px;
+}
